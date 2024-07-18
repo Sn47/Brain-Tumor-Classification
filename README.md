@@ -26,13 +26,19 @@ Pituitary Tumor: 930 slices
 
 # Methodology
 
-#Data Collection and Preprocessing
-#Normalization: Pixel values of the images were normalized to a range of [0, 1].
-#Contrast Stretching: Applied to enhance image contrast.
-#Gaussian Blurring: Used to reduce noise and smooth images.
-#Edge Enhancement: The Sobel operator was employed to enhance edges.
-#Morphological Operations: Morphological closing was performed to close small holes in the images.
-#Standardization: Feature-wise standardization was applied to the images.
+## Data Collection and Preprocessing
+
+Normalization: Pixel values of the images were normalized to a range of [0, 1].
+
+Contrast Stretching: Applied to enhance image contrast.
+
+Gaussian Blurring: Used to reduce noise and smooth images.
+
+Edge Enhancement: The Sobel operator was employed to enhance edges.
+
+Morphological Operations: Morphological closing was performed to close small holes in the images.
+
+Standardization: Feature-wise standardization was applied to the images.
 
 # Model Architecture
 
