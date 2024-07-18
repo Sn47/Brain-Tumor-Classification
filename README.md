@@ -12,10 +12,16 @@ Brain tumors are severe and life-threatening conditions that require accurate an
 
 # Dataset
 
-The dataset for this project was gathered from Figshare and contains MRI images with corresponding labels indicating the type of tumor present. The dataset comprises 3064 T1-weighted contrast-enhanced MRI images from 233 patients. These images represent three types of brain tumors:
+The dataset for this project was gathered from Figshare and contains MRI images with corresponding labels indicating the type of tumor present. 
+
+The dataset comprises 3064 T1-weighted contrast-enhanced MRI images from 233 patients. 
+
+These images represent three types of brain tumors:
 
 Meningioma: 708 slices
+
 Glioma: 1426 slices
+
 Pituitary Tumor: 930 slices
 
 # Methodology
@@ -35,7 +41,7 @@ The project utilizes a CNN based on the VGG16 architecture. The model was fine-t
 # Training and Evaluation
 The model was trained using the preprocessed dataset and evaluated using various metrics to assess its performance. The evaluation included accuracy, precision, recall, and F1-score to ensure the model's robustness and reliability in real-world applications.
 
-#Results
+# Results
 
 The findings demonstrate the model's high accuracy in classifying brain tumors. The results highlight the system's potential for aiding medical diagnosis by providing reliable and accurate classification of brain tumors from MRI images.
 
